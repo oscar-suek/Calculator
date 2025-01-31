@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "ls-bold";
+    src: url("./static/LeagueSpartan-Bold.ttf");
+}
+
+@font-face {
+    font-family: "ls-regular";
+    src: url("./static/LeagueSpartan-Regular.ttf");
+}
+
+@font-face {
+    font-family: "ls-semibold";
+    src: url("./static/LeagueSpartan-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "ls-medium";
+    src: url("./static/LeagueSpartan-Medium.ttf");
+}
+
+body{
+    background-color: hsl(222, 26%, 31%);
+}
+
+#main{
+    margin-left: 470px;
+    margin-right: 470px;
+    margin-top: 50px;
+    width: 500px;
+}
+
+#div1{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+#e1{
+    font-family: "ls-bold";
+    font-size: 29px;
+    padding-top: 15px;
+}
+
+#e2{
+    text-transform: uppercase;
+    font-family: "ls-medium";
+    font-size: 12px;
+    margin-left: 280px;
+    padding-top: 26px;
+}
+
+.slider{
+    -webkit-appearance: none;
+    --SliderColor: hsl(6, 63%, 50%);
+    width: 80px;
+    height: 25px;
+    background-color: hsl(223, 31%, 20%);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+  
+.slider:hover{
+    opacity: 1;
+}
+  
+.slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 17px;
+    height: 17px;
+    border-radius: 15px;
+    background: var(--SliderColor);
+    cursor: pointer;
+}
+
+#p1{
+    display: flex;
+    width: 80px;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    font-family: "ls-regular";
+    font-size: 14px;
+}
+
+#div2{
+    background-color: hsl(224, 36%, 15%);
+    color: white;
+    width: 100%;
+    height: 90px;
+    font-family: "ls-bold";
+    border-radius: 7px;
+    margin-top: 20px;
+    justify-items: end;
+    align-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 37px;
+    border: none;
+}
+
+#div2:focus{
+    outline: none;
+}
+
+#div3{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: hsl(223, 31%, 20%);
+    border-radius: 7px;
+}
+
+.spe2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-family: "ls-bold";
+    background-color: hsl(225, 21%, 49%);
+    font-size: 30px;
+    border: none;
+    border-radius: 9px;
+    border-bottom: 4px solid hsl(225, 21%, 34%);
+}
+
+.equ{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    font-family: "ls-bold";
+    color: white;
+    background-color: hsl(6, 63%, 50%);
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+    border: none;
+    border-radius: 9px;
+    border-bottom: 4px solid hsl(6, 63%, 35%);
+}
+
+.num{
+    background-color: hsl(45, 7%, 89%);
+    width: 90px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    color: hsl(224, 28%, 30%);
+    font-family: "ls-bold";
+    font-size: 30px;
+    border: none;
+    border-radius: 9px;
+    border-bottom: 4px solid hsl(45, 7%, 74%);
+}
+
+.spe{
+    width: 90px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: "ls-bold";
+    color: white;
+    background-color: hsl(225, 21%, 49%);
+    font-size: 30px;
+    border: none;
+    border-radius: 9px;
+    border-bottom: 4px solid hsl(225, 21%, 34%);
+}
+
+.num:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.spe:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.spe2:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.equ:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
