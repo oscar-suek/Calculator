@@ -207,3 +207,159 @@ body{
     opacity: 0.9;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 600px){
+    body{
+        width: 100%;
+        padding-left: auto;
+        padding-right: auto;
+    }
+
+    #main{
+        max-width: 90%;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    #div1{
+        width: 100%;
+    }
+
+    #div2{
+        width: 100%;
+    }
+
+    #div3{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .num{
+        /* width: 60px;
+        height: 40px; */
+        width: 19vw;
+        padding-top: 10px;
+        font-size: 26px;
+    }
+
+    .spe{
+        /* width: 60px;
+        height: 40px; */
+        width: 19vw;
+        padding-top: 10px;
+        font-size: 26px;  
+    }
+
+    #e2{
+        font-size: 12px;
+        margin-left: 0px;
+        padding-top: 26px;
+        /* padding-left: 140px; */
+        padding-left: 34vw;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 840px){
+    body{
+        width: 100%;
+        padding-left: auto;
+        padding-right: auto;
+    }
+
+    #main{
+        max-width: 90%;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    #div1{
+        width: 100%;
+    }
+
+    #div2{
+        width: 100%;
+    }
+
+    #div3{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .num{
+        /* width: 60px;
+        height: 40px; */
+        width: 14vw;
+        padding-top: 10px;
+        font-size: 26px;
+    }
+
+    .spe{
+        /* width: 60px;
+        height: 40px; */
+        width: 14vw;
+        padding-top: 10px;
+        font-size: 26px;  
+    }
+
+    #e2{
+        font-size: 12px;
+        margin-left: 0px;
+        padding-top: 26px;
+        /* padding-left: 140px; */
+        padding-left: 34vw;
+    }
+}
+
+@media only screen and (min-width: 840px) and (max-width: 1080px){
+    body{
+        width: 100%;
+        padding-left: auto;
+        padding-right: auto;
+    }
+
+    #main{
+        max-width: 90%;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    #div1{
+        width: 100%;
+    }
+
+    #div2{
+        width: 100%;
+    }
+
+    #div3{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .num{
+        /* width: 60px;
+        height: 40px; */
+        width: 10vw;
+        padding-top: 10px;
+        font-size: 26px;
+    }
+
+    .spe{
+        /* width: 60px;
+        height: 40px; */
+        width: 10vw;
+        padding-top: 10px;
+        font-size: 26px;  
+    }
+
+    #e2{
+        font-size: 12px;
+        margin-left: 0px;
+        padding-top: 26px;
+        /* padding-left: 140px; */
+        padding-left: 30vw;
+    }
+}
